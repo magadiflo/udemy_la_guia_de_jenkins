@@ -81,7 +81,7 @@ c32679e33728   jenkins/jenkins:lts-jdk17   "/usr/bin/tini -- /u…"   14 seconds
 Procedemos a abrir `jenkins` en el navegador a través de la url `http://localhost:8080`, observamos que nos sale la
 siguiente pantalla:
 
-![01.unlock_jenkins.png](assets/01.unlock_jenkins.png)
+![01.unlock_jenkins.png](assets/01-readme/01.unlock_jenkins.png)
 
 La página nos muestra el siguiente mensaje:
 
@@ -109,26 +109,26 @@ Observamos que la contraseña que nos han creado es `5b617b3ded6e4713a40b548dcab
 anterior y damos en `Continue`, como consecuencia se nos mostrará la pantalla de `Bienvenido a Jenkins` donde
 seleccionamos `instalar los plugins recomendados`.
 
-![02.welcome-jenkins.png](assets/02.welcome-jenkins.png)
+![02.welcome-jenkins.png](assets/01-readme/02.welcome-jenkins.png)
 
 A continuación, se mostrará la instalación de los plugins que nos ha recomendado, solo tenemos que esperar a que
 finalice la instalación.
 
-![03.install-plugins.png](assets/03.install-plugins.png)
+![03.install-plugins.png](assets/01-readme/03.install-plugins.png)
 
 Ahora, nos pedirá que creemos un primer usuario administrador, en mi caso crearé al usuario `admin` cuya contraseña
-también será `admin`.![img.png](assets/06.jenkins-ready.png)
+también será `admin`.
 
-![04.first-user-admin.png](assets/04.first-user-admin.png)
+![04.first-user-admin.png](assets/01-readme/04.first-user-admin.png)
 
 A continuación nos mostrará la siguiente ventana donde simplemente damos clic en el botón `Save and Finish`.
 
-![05.instance-configuration.png](assets/05.instance-configuration.png)
+![05.instance-configuration.png](assets/01-readme/05.instance-configuration.png)
 
 Finalmente, obtenemos la pantalla de listo, podemos iniciar Jenkins.
 
-![06.jenkins-ready.png](assets/06.jenkins-ready.png)
+![06.jenkins-ready.png](assets/01-readme/06.jenkins-ready.png)
 
 Luego de dar clic en el botón de `Start using Jenkins` somos redirigidos al panel de `Jenkins`.
 
-![07.control-panel-jenkins.png](assets/07.control-panel-jenkins.png)
+![07.control-panel-jenkins.png](assets/01-readme/07.control-panel-jenkins.png)
