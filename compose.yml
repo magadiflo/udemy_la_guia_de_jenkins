@@ -1,12 +1,17 @@
 services:
   jenkins:
-    image: jenkins/jenkins:lts-jdk17
+    image: jenkins/docker
+    build:
+      context: docker-inside-jenkins
+    privileged: true
+    user: root
     container_name: c-jenkins
     ports:
       - 8080:8080
       - 50000:50000
     volumes:
       - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
     restart: on-failure
     networks:
       - jenkins_net
